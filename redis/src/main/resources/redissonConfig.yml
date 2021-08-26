@@ -1,0 +1,98 @@
+##只有生产环境有集群
+clusterServersConfig:
+  #同任何节点建立连接时的等待超时
+  idleConnectionTimeout: 10000
+  connectTimeout: 10000
+  #等待节点回复命令的时间
+  timeout: 3000
+  retryAttempts: 3
+  retryInterval: 1500
+  password: null
+  subscriptionsPerConnection: 5
+  clientName: null
+  loadBalancer: !<org.redisson.connection.balancer.RoundRobinLoadBalancer> {}
+  slaveSubscriptionConnectionMinimumIdleSize: 1
+  slaveSubscriptionConnectionPoolSize: 50
+  #从节点最小空闲连接数
+  slaveConnectionMinimumIdleSize: 32
+  #设置对于slave节点的连接池中连接数最大为500
+  slaveConnectionPoolSize: 64
+  #主节点最小空闲连接数
+  masterConnectionMinimumIdleSize: 32
+  #设置对于master节点的连接池中连接数最大为500
+  masterConnectionPoolSize: 64
+  readMode: "SLAVE"
+  nodeAddresses:
+    - "redis://10.115.32.21:6379"
+    - "redis://10.115.32.21:6380"
+    - "redis://10.115.32.22:6379"
+    - "redis://10.115.32.22:6380"
+    - "redis://10.115.32.26:6389"
+    - "redis://10.115.32.26:6380"
+  scanInterval: 1000
+threads: 0
+nettyThreads: 0
+#codec:
+#  class: "org.redisson.client.codec.StringCodec"
+transportMode: "NIO"
+
+
+
+
+
+#Redisson配置 测试环境单节点
+singleServerConfig:
+  address: "redis://10.2.6.123:7777"
+  password: wonders,1
+  clientName: null
+  database: 7 #选择使用哪个数据库0~15
+  idleConnectionTimeout: 10000
+  pingTimeout: 1000
+  connectTimeout: 10000
+  timeout: 3000
+  retryAttempts: 3
+  retryInterval: 1500
+  reconnectionTimeout: 3000
+  failedAttempts: 3
+  subscriptionsPerConnection: 5
+  subscriptionConnectionMinimumIdleSize: 1
+  subscriptionConnectionPoolSize: 50
+  connectionMinimumIdleSize: 32
+  connectionPoolSize: 64
+  dnsMonitoringInterval: 5000
+  #dnsMonitoring: false
+
+threads: 0
+nettyThreads: 0
+codec:
+  class: "org.redisson.client.codec.StringCodec"
+transportMode: "NIO"
+
+##正式环境 单节点
+#singleServerConfig:
+#  address: "redis://10.115.32.26:7777"
+##  address: "redis://10.2.6.121:7777"
+#  password: Wonders,300168
+#  clientName: null
+#  database: 0 #选择使用哪个数据库0~15
+#  idleConnectionTimeout: 10000
+#  pingTimeout: 1000
+#  connectTimeout: 10000
+#  timeout: 3000
+#  retryAttempts: 3
+#  retryInterval: 1500
+#  reconnectionTimeout: 3000
+#  failedAttempts: 3
+#  subscriptionsPerConnection: 5
+#  subscriptionConnectionMinimumIdleSize: 1
+#  subscriptionConnectionPoolSize: 50
+#  connectionMinimumIdleSize: 32
+#  connectionPoolSize: 64
+#  dnsMonitoringInterval: 5000
+#  #dnsMonitoring: false
+#
+#threads: 0
+#nettyThreads: 0
+#codec:
+#  class: "org.redisson.client.codec.StringCodec"
+#transportMode: "NIO"

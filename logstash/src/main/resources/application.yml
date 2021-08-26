@@ -1,0 +1,7 @@
+logging:
+  level:
+    com.wondersgroup: info
+    org.springframework: warn
+  file:
+#    name:
+    path: ./logs

@@ -1,0 +1,84 @@
+2021-06-24 10:40:48.993  INFO 13176 --- [restartedMain] com.songbl.LogstashMainApplication       : Starting LogstashMainApplication on WIN-8LFND3MIKLN with PID 13176 (D:\Projects\Test\test\logstash\target\classes started by Administrator in D:\Projects\Test\test)
+2021-06-24 10:40:48.996  INFO 13176 --- [restartedMain] com.songbl.LogstashMainApplication       : No active profile set, falling back to default profiles: default
+2021-06-24 10:40:49.881  INFO 13176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-24 10:40:49.882  INFO 13176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-24 10:40:49.884  INFO 13176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-24 10:40:49.884  INFO 13176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2021-06-24 10:40:49.884  INFO 13176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-24 10:40:49.884  INFO 13176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-24 10:40:49.889  INFO 13176 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-06-24 10:40:49.972  INFO 13176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-24 10:40:51.264  WARN 13176 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 10:40:51.264  WARN 13176 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 10:40:51.264  WARN 13176 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 10:40:51.265  WARN 13176 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 10:40:52.412  INFO 13176 --- [restartedMain] com.songbl.LogstashMainApplication       : Started LogstashMainApplication in 3.785 seconds (JVM running for 5.263)
+2021-06-24 10:40:58.671  INFO 13176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 10:40:58.689  INFO 13176 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|门诊|2021-06-22 16:22:12
+2021-06-24 10:40:58.690  INFO 13176 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|住院|2021-06-22 04:04:12
+2021-06-24 10:40:58.690  INFO 13176 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|体检|2021-06-22 17:22:12
+2021-06-24 10:40:58.690  INFO 13176 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|随访|2021-06-22 16:45:12
+2021-06-24 10:40:58.690  INFO 13176 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|门诊|2021-06-22 22:22:12
+2021-06-24 10:44:16.571  INFO 22108 --- [restartedMain] com.songbl.LogstashMainApplication       : Starting LogstashMainApplication on WIN-8LFND3MIKLN with PID 22108 (D:\Projects\Test\test\logstash\target\classes started by Administrator in D:\Projects\Test\test)
+2021-06-24 10:44:16.574  INFO 22108 --- [restartedMain] com.songbl.LogstashMainApplication       : No active profile set, falling back to default profiles: default
+2021-06-24 10:44:17.459  INFO 22108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-24 10:44:17.460  INFO 22108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-24 10:44:17.461  INFO 22108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-24 10:44:17.461  INFO 22108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2021-06-24 10:44:17.462  INFO 22108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-24 10:44:17.462  INFO 22108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-24 10:44:17.464  INFO 22108 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-06-24 10:44:17.534  INFO 22108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-24 10:44:18.820  WARN 22108 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 10:44:18.820  WARN 22108 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 10:44:18.820  WARN 22108 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 10:44:18.821  WARN 22108 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 10:44:19.948  INFO 22108 --- [restartedMain] com.songbl.LogstashMainApplication       : Started LogstashMainApplication in 3.749 seconds (JVM running for 5.306)
+2021-06-24 10:44:21.490  INFO 22108 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 10:44:21.513  INFO 22108 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|门诊|2021-06-24 10:44:21
+2021-06-24 10:44:21.513  INFO 22108 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|住院|2021-06-24 10:44:22
+2021-06-24 10:44:21.513  INFO 22108 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|体检|2021-06-24 10:44:23
+2021-06-24 10:44:21.514  INFO 22108 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|随访|2021-06-24 10:44:24
+2021-06-24 10:44:21.514  INFO 22108 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|门诊|2021-06-24 10:44:24
+2021-06-24 11:06:16.183  INFO 20692 --- [restartedMain] com.songbl.LogstashMainApplication       : Starting LogstashMainApplication on WIN-8LFND3MIKLN with PID 20692 (D:\Projects\Test\test\logstash\target\classes started by Administrator in D:\Projects\Test\test)
+2021-06-24 11:06:16.186  INFO 20692 --- [restartedMain] com.songbl.LogstashMainApplication       : No active profile set, falling back to default profiles: default
+2021-06-24 11:06:16.948  INFO 20692 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-24 11:06:16.949  INFO 20692 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-24 11:06:16.950  INFO 20692 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-24 11:06:16.950  INFO 20692 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2021-06-24 11:06:16.950  INFO 20692 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-24 11:06:16.950  INFO 20692 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-24 11:06:16.953  INFO 20692 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-06-24 11:06:17.020  INFO 20692 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-24 11:06:18.343  WARN 20692 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 11:06:18.343  WARN 20692 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 11:06:18.343  WARN 20692 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 11:06:18.343  WARN 20692 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 11:06:19.449  INFO 20692 --- [restartedMain] com.songbl.LogstashMainApplication       : Started LogstashMainApplication in 3.631 seconds (JVM running for 5.117)
+2021-06-24 11:06:22.682  INFO 20692 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 11:06:22.699  INFO 20692 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|活动轨迹|2021-06-24 11:06:22
+2021-06-24 11:06:22.700  INFO 20692 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|医保|2021-06-24 11:06:23
+2021-06-24 11:06:22.700  INFO 20692 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|画像标签|2021-06-24 11:06:24
+2021-06-24 11:06:22.700  INFO 20692 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|检查|2021-06-24 11:06:25
+2021-06-24 11:06:22.700  INFO 20692 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|检验|2021-06-24 11:06:25
+2021-06-24 11:09:36.100  INFO 9736 --- [restartedMain] com.songbl.LogstashMainApplication       : Starting LogstashMainApplication on WIN-8LFND3MIKLN with PID 9736 (D:\Projects\Test\test\logstash\target\classes started by Administrator in D:\Projects\Test\test)
+2021-06-24 11:09:36.103  INFO 9736 --- [restartedMain] com.songbl.LogstashMainApplication       : No active profile set, falling back to default profiles: default
+2021-06-24 11:09:36.917  INFO 9736 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-24 11:09:36.917  INFO 9736 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-24 11:09:36.918  INFO 9736 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-24 11:09:36.918  INFO 9736 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2021-06-24 11:09:36.918  INFO 9736 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-24 11:09:36.918  INFO 9736 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-24 11:09:36.921  INFO 9736 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-06-24 11:09:36.983  INFO 9736 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-24 11:09:38.114  WARN 9736 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 11:09:38.114  WARN 9736 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 11:09:38.114  WARN 9736 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 11:09:38.114  WARN 9736 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-24 11:09:40.258  INFO 9736 --- [restartedMain] com.songbl.LogstashMainApplication       : Started LogstashMainApplication in 4.57 seconds (JVM running for 6.083)
+2021-06-24 11:09:41.896  INFO 9736 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-24 11:09:41.912  INFO 9736 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|长期用药|2021-06-24 11:09:41
+2021-06-24 11:09:41.912  INFO 9736 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|普通浏览|2021-06-24 11:09:42
+2021-06-24 11:09:41.913  INFO 9736 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|档案查询|2021-06-24 11:09:43
+2021-06-24 11:09:41.913  INFO 9736 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|血费|2021-06-24 11:09:44
+2021-06-24 11:09:41.913  INFO 9736 --- [http-nio-8080-exec-1] com.songbl.controller.HelloController    : |8768|近期用药|2021-06-24 11:09:44

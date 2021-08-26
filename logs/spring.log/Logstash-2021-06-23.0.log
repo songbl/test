@@ -1,0 +1,55 @@
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : Starting LogstashMainApplication on WIN-8LFND3MIKLN with PID 23152 (D:\Projects\Test\test\logstash\target\classes started by Administrator in D:\Projects\Test\test)
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : No active profile set, falling back to default profiles: default
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|o.apache.catalina.core.StandardService  : Starting service [Tomcat]
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|o.a.c.c.C.[Tomcat].[localhost].[/]      : Initializing Spring embedded WebApplicationContext
+2021-06-23 15:40|23152|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 15:40|23152|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 15:40|23152|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 15:40|23152|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 15:40|23152|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : Started LogstashMainApplication in 3.624 seconds (JVM running for 5.076)
+2021-06-23 15:40|23152|INFO| INFO|http-nio-8080-exec-1|o.a.c.c.C.[Tomcat].[localhost].[/]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-23 15:40|23152|INFO| INFO|http-nio-8080-exec-1|com.songbl.controller.HelloController   : 大爷的。
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : Starting LogstashMainApplication on WIN-8LFND3MIKLN with PID 12588 (D:\Projects\Test\test\logstash\target\classes started by Administrator in D:\Projects\Test\test)
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : No active profile set, falling back to default profiles: default
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|o.apache.catalina.core.StandardService  : Starting service [Tomcat]
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|o.a.c.c.C.[Tomcat].[localhost].[/]      : Initializing Spring embedded WebApplicationContext
+2021-06-23 16:22|12588|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 16:22|12588|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 16:22|12588|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 16:22|12588|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 16:22|12588|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : Started LogstashMainApplication in 4.737 seconds (JVM running for 6.175)
+2021-06-23 16:23|12588|INFO| INFO|http-nio-8080-exec-1|o.a.c.c.C.[Tomcat].[localhost].[/]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-23 16:23|12588|INFO| INFO|http-nio-8080-exec-1|com.songbl.controller.HelloController   : |8768|门诊|2021-06-22 16：22：12
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : Starting LogstashMainApplication on WIN-8LFND3MIKLN with PID 17220 (D:\Projects\Test\test\logstash\target\classes started by Administrator in D:\Projects\Test\test)
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : No active profile set, falling back to default profiles: default
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|o.apache.catalina.core.StandardService  : Starting service [Tomcat]
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|o.a.catalina.core.AprLifecycleListener  : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|o.a.c.c.C.[Tomcat].[localhost].[/]      : Initializing Spring embedded WebApplicationContext
+2021-06-23 16:24|17220|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 16:24|17220|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 16:24|17220|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 16:24|17220|WARN| WARN|restartedMain|o.s.data.convert.CustomConversions      : Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-23 16:24|17220|INFO| INFO|restartedMain|com.songbl.LogstashMainApplication      : Started LogstashMainApplication in 4.36 seconds (JVM running for 5.97)
+2021-06-23 16:24|17220|INFO| INFO|http-nio-8080-exec-1|o.a.c.c.C.[Tomcat].[localhost].[/]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-23 16:24|17220|INFO| INFO|http-nio-8080-exec-1|com.songbl.controller.HelloController   : |8768|门诊|2021-06-22 16:22:12
+2021-06-23 16:24|17220|INFO| INFO|http-nio-8080-exec-1|com.songbl.controller.HelloController   : |8768|住院|2021-06-22 04:04:12
+2021-06-23 16:24|17220|INFO| INFO|http-nio-8080-exec-1|com.songbl.controller.HelloController   : |8768|体检|2021-06-22 17:22:12
+2021-06-23 16:24|17220|INFO| INFO|http-nio-8080-exec-1|com.songbl.controller.HelloController   : |8768|随访|2021-06-22 16:45:12
+2021-06-23 16:24|17220|INFO| INFO|http-nio-8080-exec-1|com.songbl.controller.HelloController   : |8768|门诊|2021-06-22 22:22:12

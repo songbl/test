@@ -1,0 +1,17 @@
+
+spring:
+#  data:
+#    elasticsearch:
+#      repositories:
+#        enabled: true
+#      cluster-nodes: 192.168.31.138:9300
+#      cluster-name: elk-test
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  elasticsearch:
+    rest:
+      uris: 192.168.31.138:9200
+server:
+  port: 8081

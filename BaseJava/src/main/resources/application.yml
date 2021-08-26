@@ -1,0 +1,7 @@
+server:
+  port: 8888
+jasypt:
+  encryptor:
+    password: 35579B7F9C8CB15E
+
+# java -jar -Djasypt.encryptor.password=1123  springboot-encoder-0.0.1.RELEASE.jar

@@ -1,0 +1,34 @@
+# Tomcat
+server:
+  port: 10088
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1600   # 最大线程数
+    min-spare-threads: 400
+    accept-count: 1000 #允许的最大队列等待数
+    max-connections: 10000 #当前最大连接数
+  servlet:
+    context-path: /test
+      #  ssl:
+      #      key-store: classpath:star.newhealth.com.cn.jks #证书文件
+      #      key-store-password: globalsign456 #证书密码
+      #      # 证书类型
+      #      key-store-type: JKS
+    # 证书别名
+#      key-alias: alias
+
+
+spring:
+  # jackson时间格式化
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+#  resources:
+#    add-mappings: false
